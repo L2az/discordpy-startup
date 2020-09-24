@@ -14,7 +14,7 @@ client = discord.Client()
 async def on_message(message):
     if message.author.bot:
         return
-    GLOBAL_CH_NAME = "姉妹クラン募集" # グローバルチャットのチャンネル名
+    GLOBAL_CH_NAME = "🌸姉妹クラン募集" # グローバルチャットのチャンネル名
     GLOBAL_WEBHOOK_NAME = "hoge-webhook" # グローバルチャットのWebhook名
 
     if message.channel.name == GLOBAL_CH_NAME:
